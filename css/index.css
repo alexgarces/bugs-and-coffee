@@ -130,9 +130,10 @@ code {
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-weight: 400;
+  font-size: 1.35em;
 }
-.home :link:not(:hover) {
+.home :link {
   text-decoration: none;
 }
 
@@ -237,7 +238,7 @@ a[href].post-tag:focus {
 
 /* Post Nav */
 .post-nav {
-  margin: 0 -1rem;
+  margin: 2rem -1rem;
   padding: 1rem 2rem;
   border-top: 1px solid var(--darkgray);
 }
