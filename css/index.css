@@ -15,9 +15,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, system-ui, sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: var(--darkgray);
   background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 p:last-child {
   margin-bottom: 0;
@@ -44,7 +48,7 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--darkgray);
-  background-color: var(--darkgray);
+  background-color: var(--white);
 }
 header:after {
   content: "";
@@ -52,7 +56,7 @@ header:after {
   clear: both;
 }
 header h1 a[href] {
-  color: var(--white);
+  color: var(--darkgray);
   text-transform: uppercase;
 }
 table {
@@ -130,8 +134,7 @@ code {
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-weight: 400;
-  font-size: 1.35em;
+  font-size: 1.25em;
 }
 .home :link {
   text-decoration: none;
@@ -149,7 +152,7 @@ code {
   margin-right: 1em;
 }
 .nav-item a[href] {
-  color: var(--white);
+  color: var(--darkgray);
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
