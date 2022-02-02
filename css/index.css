@@ -137,6 +137,7 @@ code {
   font-size: 1.25em;
 }
 .home :link {
+  font-weight: 500;
   text-decoration: none;
 }
 
